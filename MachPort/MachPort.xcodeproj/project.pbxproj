@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB3C01E9251C7CCC00419261 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C01E8251C7CCC00419261 /* AppDelegate.m */; };
+		DB3C01EC251C7CCC00419261 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C01EB251C7CCC00419261 /* SceneDelegate.m */; };
+		DB3C01F2251C7CCC00419261 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3C01F0251C7CCC00419261 /* Main.storyboard */; };
+		DB3C01F4251C7CD100419261 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3C01F3251C7CD100419261 /* Assets.xcassets */; };
+		DB3C01F7251C7CD100419261 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3C01F5251C7CD100419261 /* LaunchScreen.storyboard */; };
+		DB3C01FA251C7CD100419261 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C01F9251C7CD100419261 /* main.m */; };
+		DB3C0204251C7CD200419261 /* MachPortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C0203251C7CD200419261 /* MachPortTests.m */; };
+		DB3C020F251C7CD200419261 /* MachPortUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C020E251C7CD200419261 /* MachPortUITests.m */; };
+		DB3C021E251C7CED00419261 /* MachPortWork.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C021D251C7CED00419261 /* MachPortWork.m */; };
+		DB3C0241251C820A00419261 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3C0240251C820A00419261 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB3C0200251C7CD200419261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3C01DC251C7CCC00419261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3C01E3251C7CCC00419261;
+			remoteInfo = MachPort;
+		};
+		DB3C020B251C7CD200419261 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB3C01DC251C7CCC00419261 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB3C01E3251C7CCC00419261;
+			remoteInfo = MachPort;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB3C01E4251C7CCC00419261 /* MachPort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MachPort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3C01E7251C7CCC00419261 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB3C01E8251C7CCC00419261 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB3C01EA251C7CCC00419261 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DB3C01EB251C7CCC00419261 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DB3C01F1251C7CCC00419261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB3C01F3251C7CD100419261 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB3C01F6251C7CD100419261 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB3C01F8251C7CD100419261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3C01F9251C7CD100419261 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB3C01FF251C7CD200419261 /* MachPortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachPortTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3C0203251C7CD200419261 /* MachPortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MachPortTests.m; sourceTree = "<group>"; };
+		DB3C0205251C7CD200419261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3C020A251C7CD200419261 /* MachPortUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MachPortUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3C020E251C7CD200419261 /* MachPortUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MachPortUITests.m; sourceTree = "<group>"; };
+		DB3C0210251C7CD200419261 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3C021C251C7CED00419261 /* MachPortWork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MachPortWork.h; sourceTree = "<group>"; };
+		DB3C021D251C7CED00419261 /* MachPortWork.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MachPortWork.m; sourceTree = "<group>"; };
+		DB3C023F251C820A00419261 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB3C0240251C820A00419261 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB3C01E1251C7CCC00419261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3C01FC251C7CD200419261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3C0207251C7CD200419261 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB3C01DB251C7CCC00419261 = {
+			isa = PBXGroup;
+			children = (
+				DB3C01E6251C7CCC00419261 /* MachPort */,
+				DB3C0202251C7CD200419261 /* MachPortTests */,
+				DB3C020D251C7CD200419261 /* MachPortUITests */,
+				DB3C01E5251C7CCC00419261 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB3C01E5251C7CCC00419261 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C01E4251C7CCC00419261 /* MachPort.app */,
+				DB3C01FF251C7CD200419261 /* MachPortTests.xctest */,
+				DB3C020A251C7CD200419261 /* MachPortUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB3C01E6251C7CCC00419261 /* MachPort */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C01E7251C7CCC00419261 /* AppDelegate.h */,
+				DB3C01E8251C7CCC00419261 /* AppDelegate.m */,
+				DB3C01EA251C7CCC00419261 /* SceneDelegate.h */,
+				DB3C01EB251C7CCC00419261 /* SceneDelegate.m */,
+				DB3C023F251C820A00419261 /* ViewController.h */,
+				DB3C0240251C820A00419261 /* ViewController.m */,
+				DB3C021C251C7CED00419261 /* MachPortWork.h */,
+				DB3C021D251C7CED00419261 /* MachPortWork.m */,
+				DB3C01F0251C7CCC00419261 /* Main.storyboard */,
+				DB3C01F3251C7CD100419261 /* Assets.xcassets */,
+				DB3C01F5251C7CD100419261 /* LaunchScreen.storyboard */,
+				DB3C01F8251C7CD100419261 /* Info.plist */,
+				DB3C01F9251C7CD100419261 /* main.m */,
+			);
+			path = MachPort;
+			sourceTree = "<group>";
+		};
+		DB3C0202251C7CD200419261 /* MachPortTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C0203251C7CD200419261 /* MachPortTests.m */,
+				DB3C0205251C7CD200419261 /* Info.plist */,
+			);
+			path = MachPortTests;
+			sourceTree = "<group>";
+		};
+		DB3C020D251C7CD200419261 /* MachPortUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB3C020E251C7CD200419261 /* MachPortUITests.m */,
+				DB3C0210251C7CD200419261 /* Info.plist */,
+			);
+			path = MachPortUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB3C01E3251C7CCC00419261 /* MachPort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3C0213251C7CD200419261 /* Build configuration list for PBXNativeTarget "MachPort" */;
+			buildPhases = (
+				DB3C01E0251C7CCC00419261 /* Sources */,
+				DB3C01E1251C7CCC00419261 /* Frameworks */,
+				DB3C01E2251C7CCC00419261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MachPort;
+			productName = MachPort;
+			productReference = DB3C01E4251C7CCC00419261 /* MachPort.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB3C01FE251C7CD200419261 /* MachPortTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3C0216251C7CD200419261 /* Build configuration list for PBXNativeTarget "MachPortTests" */;
+			buildPhases = (
+				DB3C01FB251C7CD200419261 /* Sources */,
+				DB3C01FC251C7CD200419261 /* Frameworks */,
+				DB3C01FD251C7CD200419261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3C0201251C7CD200419261 /* PBXTargetDependency */,
+			);
+			name = MachPortTests;
+			productName = MachPortTests;
+			productReference = DB3C01FF251C7CD200419261 /* MachPortTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB3C0209251C7CD200419261 /* MachPortUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3C0219251C7CD200419261 /* Build configuration list for PBXNativeTarget "MachPortUITests" */;
+			buildPhases = (
+				DB3C0206251C7CD200419261 /* Sources */,
+				DB3C0207251C7CD200419261 /* Frameworks */,
+				DB3C0208251C7CD200419261 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB3C020C251C7CD200419261 /* PBXTargetDependency */,
+			);
+			name = MachPortUITests;
+			productName = MachPortUITests;
+			productReference = DB3C020A251C7CD200419261 /* MachPortUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB3C01DC251C7CCC00419261 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = zw;
+				TargetAttributes = {
+					DB3C01E3251C7CCC00419261 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					DB3C01FE251C7CD200419261 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DB3C01E3251C7CCC00419261;
+					};
+					DB3C0209251C7CD200419261 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DB3C01E3251C7CCC00419261;
+					};
+				};
+			};
+			buildConfigurationList = DB3C01DF251C7CCC00419261 /* Build configuration list for PBXProject "MachPort" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB3C01DB251C7CCC00419261;
+			productRefGroup = DB3C01E5251C7CCC00419261 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB3C01E3251C7CCC00419261 /* MachPort */,
+				DB3C01FE251C7CD200419261 /* MachPortTests */,
+				DB3C0209251C7CD200419261 /* MachPortUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB3C01E2251C7CCC00419261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3C01F7251C7CD100419261 /* LaunchScreen.storyboard in Resources */,
+				DB3C01F4251C7CD100419261 /* Assets.xcassets in Resources */,
+				DB3C01F2251C7CCC00419261 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3C01FD251C7CD200419261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3C0208251C7CD200419261 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB3C01E0251C7CCC00419261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3C01E9251C7CCC00419261 /* AppDelegate.m in Sources */,
+				DB3C01FA251C7CD100419261 /* main.m in Sources */,
+				DB3C01EC251C7CCC00419261 /* SceneDelegate.m in Sources */,
+				DB3C021E251C7CED00419261 /* MachPortWork.m in Sources */,
+				DB3C0241251C820A00419261 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3C01FB251C7CD200419261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3C0204251C7CD200419261 /* MachPortTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3C0206251C7CD200419261 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3C020F251C7CD200419261 /* MachPortUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB3C0201251C7CD200419261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3C01E3251C7CCC00419261 /* MachPort */;
+			targetProxy = DB3C0200251C7CD200419261 /* PBXContainerItemProxy */;
+		};
+		DB3C020C251C7CD200419261 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB3C01E3251C7CCC00419261 /* MachPort */;
+			targetProxy = DB3C020B251C7CD200419261 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB3C01F0251C7CCC00419261 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3C01F1251C7CCC00419261 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB3C01F5251C7CD100419261 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3C01F6251C7CD100419261 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB3C0211251C7CD200419261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB3C0212251C7CD200419261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB3C0214251C7CD200419261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV943J7MUW;
+				INFOPLIST_FILE = MachPort/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pharospro.kuaizhu.MachPort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB3C0215251C7CD200419261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV943J7MUW;
+				INFOPLIST_FILE = MachPort/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pharospro.kuaizhu.MachPort;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB3C0217251C7CD200419261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV943J7MUW;
+				INFOPLIST_FILE = MachPortTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pharospro.kuaizhu.MachPortTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MachPort.app/MachPort";
+			};
+			name = Debug;
+		};
+		DB3C0218251C7CD200419261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV943J7MUW;
+				INFOPLIST_FILE = MachPortTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pharospro.kuaizhu.MachPortTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MachPort.app/MachPort";
+			};
+			name = Release;
+		};
+		DB3C021A251C7CD200419261 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV943J7MUW;
+				INFOPLIST_FILE = MachPortUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pharospro.kuaizhu.MachPortUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MachPort;
+			};
+			name = Debug;
+		};
+		DB3C021B251C7CD200419261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JV943J7MUW;
+				INFOPLIST_FILE = MachPortUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pharospro.kuaizhu.MachPortUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MachPort;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB3C01DF251C7CCC00419261 /* Build configuration list for PBXProject "MachPort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3C0211251C7CD200419261 /* Debug */,
+				DB3C0212251C7CD200419261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3C0213251C7CD200419261 /* Build configuration list for PBXNativeTarget "MachPort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3C0214251C7CD200419261 /* Debug */,
+				DB3C0215251C7CD200419261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3C0216251C7CD200419261 /* Build configuration list for PBXNativeTarget "MachPortTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3C0217251C7CD200419261 /* Debug */,
+				DB3C0218251C7CD200419261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3C0219251C7CD200419261 /* Build configuration list for PBXNativeTarget "MachPortUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3C021A251C7CD200419261 /* Debug */,
+				DB3C021B251C7CD200419261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB3C01DC251C7CCC00419261 /* Project object */;
+}
